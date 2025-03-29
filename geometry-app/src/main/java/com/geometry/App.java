@@ -26,7 +26,12 @@ public class App
         System.out.println("triangle perimetr : " + triangle.getPerimeter());
         System.out.println("triangle area : " + triangle.getArea());
         System.out.println("test with geometry-utils : " + ShapeComparator.compareByPerimeter(rectangle, rectangle));
-        System.out.println(ShapeComparator.helloFromUtils());
+        System.out.println(ShapeComparator.helloFromUtils() + "\n");
+
+        Cube cube = new Cube(3.0);
+        System.out.println("test with 3d " + cube.getSide());
+        Sphere sphere = new Sphere(3.0);
+        System.out.println("test with 3d " + sphere.getRadius());
 
 
     }
