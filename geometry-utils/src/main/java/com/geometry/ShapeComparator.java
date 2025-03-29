@@ -11,6 +11,8 @@ public class ShapeComparator {
         return Double.compare(r1.getPerimeter(), r2.getPerimeter());
     }
 
-
+    public static String helloFromUtils() {
+        return "hello from utils";
+    }
 
 }

@@ -26,7 +26,7 @@ public class App
         System.out.println("triangle perimetr : " + triangle.getPerimeter());
         System.out.println("triangle area : " + triangle.getArea());
         System.out.println("test with geometry-utils : " + ShapeComparator.compareByPerimeter(rectangle, rectangle));
-
+        System.out.println(ShapeComparator.helloFromUtils());
 
 
     }
