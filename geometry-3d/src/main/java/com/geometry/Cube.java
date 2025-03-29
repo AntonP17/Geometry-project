@@ -11,4 +11,12 @@ public class Cube {
     public double getSide() {
         return side;
     }
+
+    public double getVolume() {
+        return side * side * side;
+    }
+
+    public double getSurfaceArea() {
+        return 6 * side * side;
+    }
 }
