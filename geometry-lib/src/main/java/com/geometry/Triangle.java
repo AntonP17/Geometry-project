@@ -23,4 +23,14 @@ public class Triangle {
     public double getSideC() {
         return sideC;
     }
+
+    public double getArea() {
+
+        double s = (sideA + sideB + sideC) / 2;
+        return Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+    }
+
+    public double getPerimeter() {
+        return sideA + sideB + sideC;
+    }
 }
