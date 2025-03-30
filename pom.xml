@@ -13,7 +13,6 @@
   <modules>
     <module>geometry-lib</module>
     <module>geometry-utils</module>
-    <module>geometry-app</module>
     <module>geometry-3d</module>
   </modules>
 
